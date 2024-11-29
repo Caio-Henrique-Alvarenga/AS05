@@ -1,5 +1,5 @@
 from flask import Flask, request, jsonify, send_from_directory
-import pdfplumber
+from pypdf import PdfReader
 from sentence_transformers import SentenceTransformer
 import faiss
 import os
@@ -24,9 +24,9 @@ def extract_text_from_pdf(pdf_file):
     """
     text = ""
     try:
-        with pdfplumber.open(pdf_file) as pdf:
-            for page in pdf.pages:
-                text += page.extract_text()
+        reader = PdfReader(pdf_file)
+        for page in reader.pages:
+            text += page.extract_text()
     except Exception as e:
         raise RuntimeError(f"Erro ao processar o PDF: {str(e)}")
     return text
