@@ -2,3 +2,4 @@ streamlit
 pdfplumber
 sentence-transformers
 faiss-cpu
+streamlit_js_eval
