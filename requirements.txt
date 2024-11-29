@@ -12,6 +12,7 @@ fastapi==0.115.5
 filelock==3.16.1
 Flask==3.1.0
 fsspec==2024.10.0
+gunicorn==23.0.0
 huggingface-hub==0.26.3
 idna==3.10
 itsdangerous==2.2.0
