@@ -43,7 +43,7 @@ def rank_by_similarity(query, results):
 
 @app.route('/')
 def serve_frontend():
-    return send_from_directory('.', 'index.html')
+    return send_from_directory('.', './templates/index.html')
 
 
 @app.route('/upload', methods=['POST'])
