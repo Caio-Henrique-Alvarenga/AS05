@@ -38,6 +38,7 @@ Para iniciar a aplicação use o seguinte comando:
 
 Após executado, a aplicação poderá ser acessada através do link ```http://localhost:8501``` em seu navegador.
 
-![image info](image.png)
 
 ---
+
+![](image.png)
