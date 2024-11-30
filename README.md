@@ -13,7 +13,7 @@ A ferramenta desenvolvida esta hospedada na plataforma streamlit e pode ser aces
 
 ### **Instruções para Compilação Local**
 
-Se você deseja executar o código localmente em vez de utilizar o link para o app hospedado, siga as instruções abaixo para configurar e executar o projeto em sua máquina.
+Se você deseja executar o código localmente em vez de utilizar o link para o app hospedado, siga as instruções abaixo (ou assista [este vídeo](https://youtu.be/u-Cdinq5BHI) para configurar e executar o projeto em sua máquina.
 
 #### **1. Pré-requisitos**
 Antes de começar, certifique-se de ter o seguinte instalado:
